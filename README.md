@@ -1,7 +1,7 @@
 # navi_v1
 
 A new Flutter project.
-This is Navi, version 1. 8/5/2023
+This is Navi, version 1. 8/5/2023 :0 blargh
 
 ## Getting Started
 
