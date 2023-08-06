@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'palette.dart';
 import 'home_page.dart';
 
 void main() {
@@ -12,9 +13,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Navi',
       theme: ThemeData(
+        useMaterial3: false,
         primarySwatch: Colors.pink,
+        scaffoldBackgroundColor: palette.light2Blue,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: palette.light2Blue,
+        )
       ),
       home: const HomePage(),
     );
